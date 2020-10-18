@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6JKCbCjXBeueb8qD3ugviadPsuKDRw6RRqlNap54B+dBVMfUs/nuNZbvukTRs/44FnD5XUc+oh3Ke39b2IkedA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\LUISK\\Documents\\web\\PrimerParcial\\Entidad\\Entidad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LUISK\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LUISK\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

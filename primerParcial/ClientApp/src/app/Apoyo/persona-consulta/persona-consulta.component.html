@@ -1,0 +1,35 @@
+<section class="content">
+<h1>Consulta de ayudas</h1>
+    <hr>
+    <table class="table table-striped" *ngIf='personas && personas.length'> 
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Identificacion</th>
+                <th scope="col">Nombre y apellidos</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Valor Apoyo Recibido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let persona of personas; index as i">
+                <th scope="row">{{ i + 1}}</th>
+                <td>{{persona.identificacion}}</td>
+                <td>{{persona.nombre }} {{persona.apellidos}}</td>
+                <td>{{persona.sexo}}</td>
+                <td>{{persona.edad}}</td>
+                <td id="apoyo">{{persona.valorApoyo | currency}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="row" >
+        <div class="col-md-8"></div>
+        <div class="col-md-3" id="divTotal">
+            <label>Valor Total Apoyo</label>
+            <input class="form-control" value="{{Total | currency}}" id="txtValor">
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    
+</section>
